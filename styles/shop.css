@@ -1,0 +1,108 @@
+body {
+  background-image: url("../png/dark_back.png");
+}
+
+.home {
+  width: 50px;
+  height: 50px;
+  background-image: url("../png/home.png");
+
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+.shop_cont {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+
+  background-image: url("../png/shop_frame.png");
+
+  height: 90%;
+  width: 50%;
+}
+
+.title {
+  position: absolute;
+  top: 6%;
+  font-size: 5vh;
+}
+
+.card_cont {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 10%;
+  height: 60%;
+  width: 80%;
+}
+
+.card {
+  width: 100px;
+  height: 100%;
+}
+
+.bonus {
+  position: relative;
+  width: 100%;
+  height: 90px;
+}
+
+.bonus span {
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.freeze {
+  background-image: url("../png/freeze.png");
+}
+
+.speed {
+  background-image: url("../png/speed.png");
+}
+
+.button {
+  background-image: url("../png/button.png");
+  height: 20%;
+}
+
+.info {
+  font-size: 2vw;
+  font-family: "Humanist";
+}
+
+@media screen and (min-height: 750px) {
+  .balance_field {
+    width: 250px;
+    height: 92px;
+    z-index: 3;
+    font-size: 32px;
+  }
+
+  .home {
+    width: 90px;
+    height: 90px;
+  }
+
+  .card {
+    width: 136px;
+  }
+
+  .bonus {
+    height: 120px;
+  }
+
+  .bonus span {
+    font-size: 24px;
+    top: 13px;
+    left: 25px;
+  }
+
+  .button {
+    font-size: 32px;
+    max-height: 85px;
+  }
+}

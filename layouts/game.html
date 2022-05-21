@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, width=device-width, viewport-fit=cover"
+    />
+    <link rel="shortcut icon" href="./png/icon.png" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/game.css" />
+    <title>Faster Victory</title>
+  </head>
+  <body>
+    <div class="balance_field block"></div>
+    <a href="./main.html" class="home block"></a>
+
+    <div class="game_over block">
+      <span>WINNER</span>
+      <div class="bet block">
+        <img alt="animal" />
+        <span>Your bet</span>
+      </div>
+      <div class="back_animal block">
+        <img alt="animal" />
+      </div>
+      <div class="button block"></div>
+      <a href="./main.html" class="next block"><span>NEXT</span></a>
+    </div>
+
+    <div class="control">
+      <div class="bet block">
+        <img alt="animal" />
+        <span>Your bet</span>
+      </div>
+      <div class="bonus freeze block"><span></span></div>
+      <div class="bonus speed block"><span></span></div>
+    </div>
+
+    <div class="line top"></div>
+    <div class="line main"></div>
+    <div class="line bottom"></div>
+    <div class="finish"></div>
+
+    <img alt="top" class="animal a_top" />
+    <img alt="main" class="animal a_main" />
+    <img alt="bottom" class="animal a_bottom" />
+
+    <script src="../scripts/game.js" type="module"></script>
+  </body>
+</html>

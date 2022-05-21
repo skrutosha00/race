@@ -1,0 +1,237 @@
+.game_over {
+  background-image: url("../png/shop_frame.png");
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  transform: translate(-50%);
+  z-index: 10;
+  width: 45%;
+  height: 80%;
+  flex-direction: column;
+  transition: left 0.5s ease;
+}
+
+.game_over > span {
+  position: absolute;
+  font-size: 2vw;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.game_over .bet {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.game_over .back_animal {
+  background-image: url("../png/chosen.png");
+  width: 60%;
+  height: 50%;
+  align-items: flex-end;
+}
+
+.game_over .button {
+  width: 30%;
+  height: 10%;
+  font-size: 2vw;
+  background-image: url("../png/button.png");
+}
+
+.game_over .back_animal img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.game_over .next {
+  background-image: url("../png/big_block.png");
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 120%;
+  height: 15%;
+  font-size: 3vw;
+  align-items: flex-end;
+}
+
+.home {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  height: 45px;
+  width: 45px;
+  background-image: url("../png/home.png");
+}
+
+.balance.anim {
+  color: green;
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.bet {
+  position: relative;
+  background-image: url("../png/small_frame.png");
+  width: 64px;
+  height: 83px;
+}
+
+.bet span {
+  font-family: "Humanist";
+  position: absolute;
+  bottom: 2%;
+  font-size: 1.5vw;
+}
+
+.bet img {
+  margin-top: 7%;
+  max-height: 70%;
+  max-width: 120%;
+}
+
+.bonus {
+  width: 80px;
+  height: 70px;
+  position: relative;
+}
+
+.freeze {
+  background-image: url("../png/freeze.png");
+}
+
+.speed {
+  background-image: url("../png/speed.png");
+}
+
+.bonus span {
+  font-size: 16px;
+  position: absolute;
+  top: 7px;
+  left: 15px;
+}
+
+.line {
+  width: 100%;
+  height: 4%;
+  position: absolute;
+}
+
+.top {
+  top: 43%;
+  background: linear-gradient(
+    189.99deg,
+    #82e1ff -0.89%,
+    rgba(130, 225, 255, 0) 104.97%
+  );
+}
+
+.main {
+  top: 63%;
+  background: linear-gradient(
+    189.99deg,
+    #ff3ff7 -0.89%,
+    rgba(255, 63, 247, 0.35) 104.96%,
+    #ff3ff7 104.97%
+  );
+}
+
+.bottom {
+  top: 83%;
+  background: linear-gradient(
+    189.99deg,
+    #82e1ff -0.89%,
+    rgba(130, 225, 255, 0) 104.97%
+  );
+}
+
+.animal {
+  position: absolute;
+  right: 90%;
+  transform: translate(0, -75%);
+  max-height: 17%;
+  max-width: 10%;
+  transition: right 1s linear;
+}
+
+.a_top {
+  top: 43%;
+}
+
+.a_main {
+  top: 63%;
+}
+
+.a_bottom {
+  top: 83%;
+}
+
+.finish {
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  background: #0b92bd;
+}
+
+@media screen and (max-width: 650px) {
+  .home {
+    left: 25%;
+  }
+}
+
+@media screen and (min-height: 750px) {
+  .balance_field {
+    width: 250px;
+    height: 92px;
+    z-index: 3;
+    font-size: 32px;
+  }
+
+  .home {
+    width: 90px;
+    height: 90px;
+    left: 30%;
+  }
+
+  .bet {
+    width: 128px;
+    height: 166px;
+  }
+
+  .bonus {
+    width: 160px;
+    height: 140px;
+  }
+
+  .control {
+    width: 50%;
+  }
+
+  .bonus span {
+    font-size: 22px;
+    top: 18px;
+    left: 33px;
+  }
+
+  .game_over > span {
+    font-size: 3vw;
+  }
+
+  .game_over .next {
+    font-size: 5vw;
+  }
+
+  .bet span {
+    font-size: 28px;
+  }
+}

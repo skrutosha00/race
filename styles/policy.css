@@ -1,0 +1,11 @@
+body {
+  background-image: url("../png/dark_back.png");
+}
+
+.text {
+  width: 70%;
+  height: 70%;
+  overflow: scroll;
+  font-family: "Humanist";
+  font-size: 2vw;
+}
